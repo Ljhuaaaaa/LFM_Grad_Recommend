@@ -13,4 +13,4 @@ MovieLens数据集地址：https://grouplens.org/datasets/movielens/
 # Conclusion
 均方误差为0.79，也算是一个不错的结果了(可以遍历份数，去对均方误差求平均值，更有说服力)。
 
-LFM算法相较于ItemCF和UserCF算法来说，精确度，召回率和覆盖率会更高些，但是LFM算法无法进行实时推荐，每当有新用户新产品进来时，则需要重新进行LFM算法迭代
+LFM算法相较于ItemCF和UserCF算法来说，精确度，召回率和覆盖率会更高些，但是LFM算法无法进行实时推荐，每当有新用户新产品进来时，则需要重新进行LFM算法迭代，从而时间代价太大。
